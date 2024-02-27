@@ -4,7 +4,7 @@ const FooterComponent = () => {
   return (
     <footer className="footer text-light py-4">
         <div className="container">
-            <div className="row">
+            {/* <div className="row">
                 <div className="col-md-3 text-center">
                     <h5>Enlaces</h5>
                     <ul className="list-unstyled">
@@ -37,6 +37,9 @@ const FooterComponent = () => {
                         <li><a href="#">Enlace 12</a></li>
                     </ul>
                 </div>
+            </div> */}
+            <div className="text-center">
+                <p className="mb-0 fs-5 text-center m-0 p-0">©Todos los derechos reservados 2024</p>
             </div>
         </div>
     </footer>
