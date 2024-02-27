@@ -3,7 +3,7 @@ import SwiperHome from "../component/SwiperContent";
 
 const HomePage = () => {
   return (
-    <section>
+    <section className="home">
       <SwiperHome />
     </section>
   )

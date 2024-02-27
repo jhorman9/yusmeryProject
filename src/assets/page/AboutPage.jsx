@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutPage = () => {
   return (
-    <div className="book-container">
+    <section className="book-container">
         <div class="book">
             <div class="book-cover">
                 <div>
@@ -31,7 +31,7 @@ const AboutPage = () => {
                 <p>"I love walking in London," said Mrs. Dalloway. "Really it's better than walking in the country."</p>
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 

@@ -2,7 +2,7 @@
 
 const FooterComponent = () => {
   return (
-    <footer className="footer bg-dark text-light py-4">
+    <footer className="footer text-light py-4">
         <div className="container">
             <div className="row">
                 <div className="col-md-3 text-center">

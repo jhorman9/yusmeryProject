@@ -1,12 +1,15 @@
 import { Container, Nav, NavDropdown, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import logo from '../image/logo.jpg';
 
 const NavBar = () => {
 
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-primary">
         <Container>
-            <Navbar.Brand href="#">Yusmery Hernandez</Navbar.Brand>
+            <Navbar.Brand href="#">
+                <img className='logo' src={logo} alt="" />
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
                 <div className='me-auto my-2 my-lg-0'></div>

@@ -1,3 +1,26 @@
+:root{
+	--Morado: #8A2BE2;
+	--Fucsia: #FF00FF;
+	--Rosa-suave: #FFC0CB;
+	--Lila: #C8A2C8;
+	--Rosa-claro: #FFB6C1;
+	--Gris-claro: #D3D3D3;
+	--Marron: #643c23;
+}
+
+.navbar{
+	background-color: #fff !important;
+}
+
+nav .logo{
+    mix-blend-mode: luminosity;
+    width: 250px;
+}
+
+section.home{
+	height: 100vh;
+}
+
 section{
   min-height: calc(100vh - (168px + 56px));
 }
@@ -60,6 +83,50 @@ section{
   stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
   stroke-dasharray: 125.6;
   transform: rotate(-90deg);
+}
+
+.slide-item.item-1{
+	background-image: url('https://cdn.pixabay.com/photo/2016/01/08/05/24/sunflower-1127174_1280.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	position: relative;
+	z-index: 2;
+}
+
+.slide-item.item-1::after{
+	content: '';
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	z-index: 1;
+}
+
+.slide-item h3{
+	color: var(--Lila);
+}
+
+.slide-item h4{
+	color: var(--Lila);
+}
+
+.slide-item p{
+	color: var(--Lila);
+	max-width: 1199px;
+}
+
+.text-normal{
+	color: #fff !important;
+}
+
+.slide-item .slide-item-texts{
+	filter: drop-shadow(0px 0px 4px var(--Morado));
+	position: relative;
+	z-index: 3;
+	-webkit-filter: drop-shadow(0px 0px 4px var(--Morado));
 }
 
 /*BOOK STYLES*/
@@ -195,3 +262,7 @@ p {
 }
 
 /*BOO STYLES END*/
+
+footer{
+	background-color: var(--Gris-claro);
+}
