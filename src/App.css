@@ -17,13 +17,20 @@ nav .logo{
     width: 250px;
 }
 
+section{
+  min-height: calc(100vh - (168px + 56px));
+}
+
 section.home{
 	height: 100vh;
 	background-color: var(--Marron);
 }
 
-section{
-  min-height: calc(100vh - (168px + 56px));
+@media(max-width:768px){
+	section.home{
+		min-height: 500px;
+		height: 100%;
+	}
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu{
@@ -263,6 +270,33 @@ p {
 }
 
 /*BOO STYLES END*/
+
+.autoplay-progress svg{
+	stroke: var(--Lila) !important;
+}
+
+.autoplay-progress span{
+	color: var(--Morado) !important;
+}
+
+.swiper-pagination-bullet-active{
+	background-color: var(--Lila);
+}
+
+.swiper-button-prev, .swiper-button-next{
+	color: var(--Lila);
+}
+
+.book-self{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	align-items: center;
+}
+
+.book-self__text h3{
+	color: var(--Lila);
+}
 
 footer{
 	background-color: var(--Gris-claro);

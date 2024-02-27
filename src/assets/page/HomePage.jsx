@@ -11,7 +11,7 @@ const HomePage = () => {
       </section>
       <section     
         data-aos="fade-right"
-        data-aos-offset="20"
+        data-aos-offset="5"
         data-aos-delay="50"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"
