@@ -9,7 +9,7 @@ const AboutComponent = () => {
                 <img src={book} alt="" />
             </div>
             <div className='book-self__text'>
-                <h3 className='p-0'>Cuando la ultima estrella muera</h3>
+                <h3 className='p-0'>Cuando la última estrella muera</h3>
                 <p className='text-start p-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus numquam velit illum ipsa obcaecati optio error dolores architecto, deserunt, facilis nisi laudantium tempore fugiat itaque perferendis neque quae officiis! Maxime.
                 Doloribus ad est saepe animi consequatur, libero iusto nobis ipsam quibusdam nesciunt porro excepturi, veritatis ullam consectetur quod ea et. Vero possimus officiis sed quod architecto sint nisi rem temporibus?
                 Sint aperiam fugit aut amet tempora eius similique consequatur, quis sapiente mollitia, voluptas fuga cum? Neque magnam optio iste amet recusandae distinctio maiores facilis, totam tempore mollitia at, illo veritatis.
@@ -27,4 +27,4 @@ const AboutComponent = () => {
   )
 }
 
-export default AboutComponent
+export default AboutComponent;
